@@ -1,17 +1,27 @@
 package src.main;
 
+import java.util.ArrayList;
 import java.util.List;
 
 // Clase para manejar las consultas médicas
 public class GestionMedicos {
-    
+
     private List<Medico> medicos; // Calendario de citas
 
-    // TODO: Método para añadir un medico a la lista 
-    public void addMedico(Medico medico) {
+    
+    public GestionMedicos() {
+        this.medicos = new ArrayList<Medico>();
     }
-    // TODO: Método para listar los medicos de la aplicaicón
+
+    public void addMedico(Medico medico) {
+    
+        medicos.add(medico);
+    }
+
     public void listMedicos() {
+        for (Medico medico : medicos) {
+            System.out.println(medico.toString());
+        }
     }
     // Método para buscar especialistas por especialidad
     public void buscarEspecialistas(String especialidad) {

@@ -11,9 +11,9 @@ public class RegistroUsuario {
         usuariosRegistrados = new HashMap<>();
     }
 
-    // TODO: Método para registrar un nuevo usuario
+  
     public void registrarUsuario(String nombreUsuario, String contraseña) {
-      
+      usuariosRegistrados.put(nombreUsuario, contraseña);
     }
 
     // Método para verificar si un usuario existe y si la contraseña es correcta
