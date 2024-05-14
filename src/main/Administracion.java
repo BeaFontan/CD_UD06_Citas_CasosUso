@@ -1,5 +1,6 @@
 package src.main;
 public class Administracion {
+
     // Método para gestionar personal médico
     public void gestionarPersonalMedico() {
         // Lógica para gestionar el personal médico
@@ -23,4 +24,5 @@ public class Administracion {
         // Lógica para gestionar las especialidades médicas
         System.out.println("Gestionando especialidades médicas");
     }
+    
 }

@@ -5,7 +5,8 @@ public class AplicacionSalud {
     public static void main(String[] args) {
         // Simulando el registro de usuario
         RegistroUsuario registro = new RegistroUsuario();
-        Medico medico = new Medico("Manolo", "Osteopata");
+        Medico medico = new Medico("Medico1", "Cardiología");
+        
         registro.registrarUsuario("usuario1", "contraseña1");
 
         // Simulando el inicio de sesión

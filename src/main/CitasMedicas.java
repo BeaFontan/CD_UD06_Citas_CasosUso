@@ -4,6 +4,7 @@ import java.util.List;
 
 // Clase para manejar las citas médicas
 public class CitasMedicas {
+
     private List<String> calendario; // Calendario de citas
 
     public CitasMedicas() {
@@ -29,8 +30,8 @@ public class CitasMedicas {
     }
 
     public void verCalendario() {
-        for (String string : calendario) {
-            System.out.println(string);
+        for (String fecha : calendario) {
+            System.out.println(fecha);
         }
     }
 }

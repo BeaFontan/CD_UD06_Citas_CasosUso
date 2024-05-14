@@ -23,6 +23,7 @@ public class GestionMedicos {
             System.out.println(medico.toString());
         }
     }
+    
     // Método para buscar especialistas por especialidad
     public void buscarEspecialistas(String especialidad) {
         // Lógica para buscar especialistas por especialidad
